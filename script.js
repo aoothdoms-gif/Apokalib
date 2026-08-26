@@ -52,11 +52,11 @@ function shrinkNoButton() {
 function generateMessage(noCount) {
   const messages = [
     "No 😔",
-    "PKOT OT JAE? 🥺",
-    "NOR JAE NOR please 🥹",
-    "KOM JENG MER JAE 😭",
-    "JAE TVER JENG BESADONG NH KTEC HZ 💔",
-    "NH YOM HAAA... 😭💔",
+    "PKOT OT oO? 🥺",
+    "NOR JRUK NOR please 🥹",
+    "KOM JENG MER KON JRUK 😭",
+    "JRUK TVER JENG BESADONG B KTEC HZ 💔",
+    "B YOM HAAA... 😭💔",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
